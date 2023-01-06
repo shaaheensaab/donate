@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header */
+.btn-primary{
+    background-color: rgb(250, 97, 50);
+    border: none;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+header{
+    background-image: url(/images/donation13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 10px 0;
+}
+.header-info{
+    text-align: center;
+}
+.header-info h1{
+    font-size: 6rem;
+}
+.header-info p{
+    font-size: 1.5rem;
+}
+
+/* donate section */
+.donate{
+    text-align: center;
+    width: 1100px;
+    margin: 100px auto;
+}
+.donate-title{
+    font-size: 4rem;
+    color: #333;
+}
+.donate-description{
+    font-size: 1.2rem;
+    color: #666;
+    margin: 30px 0;
+}
+.donate-amount-container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 20px 0;
+}
+.amount-card{
+    background-color: rgb(238, 238, 238);
+    padding: 50px 30px;
+    color: #666;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.amount-card-active{
+    border: 3px solid rgb(250, 97, 50);
+    color: rgb(250, 97, 50);
+}
+.custom-amount-container{
+    margin: 30px 0;
+}
+.custom-amount{
+    color: #999;
+    font-weight: 400;
+   margin-bottom: 10px; 
+}
+hr{
+    color: #999;
+}
+
+/* donation plan */
+.donate-card-container{
+    display: flex;
+    gap: 20px;
+}
+.donate-card{
+    padding: 100px 30px;
+    text-align: left;
+    border-radius: 5px;
+}
+.donate-card > h2{
+    margin: 20px 0;
+}
+.d-card1{
+    background-color: aliceblue;
+}
+.d-card2{
+    background-color: rgb(255, 243, 245);
+}
+.d-card3{
+    background-color: rgb(250, 250, 233);   
+}
+
+/* blog section */
+.blog{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 100px;
+}
+.blog-info > h1{
+    font-size: 3rem;
+    color: #333;
+}
+.blog-info > p{
+    font-size: 1.2rem;
+    color: #555;
+}
+.blog-image img{
+    max-width: 500px;
+}
+.blog2{
+    margin: 100px auto;
+    gap: 100px;
+}
+
+/* update section */
+.update{
+    text-align: center;
+    margin: 50px auto;
+    width: 1100px;
+}
+.update > h1{
+    font-size: 3rem;
+    color: #333;
+}
+.update > p{
+    font-size: 1.2rem;
+    color: #666;
+}
+.submit-section{
+    background-color: seashell;
+    width: 600px;
+    margin: 0px auto;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.submit-section > input{
+    border: none;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+}
+.footer-info{
+    margin: 0 auto;
+    width: 250px;
+    text-align: center;
+}
+.footer-info > h1{
+    font-family: 'Lobster';
+    font-size: 2.5rem;
+    color: rgb(250, 97, 50);
+}
